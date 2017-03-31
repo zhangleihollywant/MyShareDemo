@@ -62,6 +62,10 @@
     <!--RedirectUrl="http://www.sharesdk.cn"  （填写您在新浪微博上注册的RedirectUrl）-->
     <!--ShareByAppClient="false"  （是否使用客户端进行分享）-->
     <!--Enable="true" />   （布尔值，标记此平台是否有效）-->
+    <ShareSDK
+        Appkey="1c90a74f224c9"/>
+
+
     <SinaWeibo
         AppKey="1247804455"
         AppSecret="879eb2849d25e42cfb90380a1485ef3d"
@@ -69,7 +73,7 @@
         Id="1"
         RedirectUrl="http://www.baidu.com"
         ShareByAppClient="true"
-        SortId="2"/>
+        SortId="1"/>
 
     <TencentWeibo
         AppKey="1106000395"
@@ -77,7 +81,7 @@
         Enable="true"
         Id="2"
         RedirectUri="http://sharesdk.cn"
-        SortId="1"/>
+        SortId="2"/>
 
     <QZone
         AppId="1106000395"
